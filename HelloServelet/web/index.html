@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application</title>
+</head>
+<body>
+<h1>My first web Applications</h1>
+<button>
+    Send A Request
+</button>
+<script src="assets/JS/jquery-3.7.1.min.js"></script>
+<script>
+    $('button').click(function () {
+        console.log('Request started');
+        $.ajax({
+            url: 'http://localhost:8080/HelloServelet_war_exploded/hello',
+            method: 'POST',
+            success: function (response) {
+                console.log(response);
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+        console.log('Request finished');
+    });
+</script>
+
+
+</body>
+</html>
