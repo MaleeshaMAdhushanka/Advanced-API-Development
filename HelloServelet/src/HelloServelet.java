@@ -15,18 +15,13 @@ public class HelloServelet  extends HttpServlet {
         out.println("Get  method executed");
     }
 
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         PrintWriter out = resp.getWriter();
         out.println("POST  method executed");
     }
 
-    @Override
-    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter out = resp.getWriter();
-        out.println("PUT  method executed");
-    }
 
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -39,4 +34,40 @@ public class HelloServelet  extends HttpServlet {
         PrintWriter out = resp.getWriter();
         out.println("OPTIONS  method executed");
     }
+
+    @Override
+    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        PrintWriter out = resp.getWriter();
+        out.println("PUT  method executed");
+    }
+
+//    @Override
+//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        PrintWriter out = resp.getWriter();
+//        out.println("GET Method executed");
+//    }
+//
+//    @Override
+//    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//       PrintWriter out =   resp.getWriter();
+//        System.out.println("POST method executed");
+//    }
+//
+//    @Override
+//    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//       PrintWriter out = resp.getWriter();
+//        System.out.println("PUT method executed");
+//    }
+//
+//    @Override
+//    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//       PrintWriter out = resp.getWriter();
+//        System.out.println("DELETE method executed");
+//    }
+//
+//    @Override
+//    protected void doOptions(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//       PrintWriter out =  resp.getWriter();
+//        System.out.println("OPTIONS method executed");
+//    }
 }

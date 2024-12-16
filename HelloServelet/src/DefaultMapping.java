@@ -14,3 +14,5 @@ public class DefaultMapping extends HttpServlet {
         System.out.println("Default Mapping works");
     }
 }
+
+

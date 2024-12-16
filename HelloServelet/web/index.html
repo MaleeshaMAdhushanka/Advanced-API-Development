@@ -15,7 +15,7 @@
         console.log('Request started');
         $.ajax({
             url: 'http://localhost:8080/HelloServelet_war_exploded/hello',
-            method: 'POST',
+            method: 'GET',
             success: function (response) {
                 console.log(response);
             },

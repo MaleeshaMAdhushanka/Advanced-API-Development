@@ -14,3 +14,11 @@ public class ExtensionMapping extends HttpServlet {
         System.out.println("Extention Maping is worked");
     }
 }
+//
+//@WebServlet(urlPatterns = "*.css")
+//public class ExtensionMapping extends HttpServlet{
+//    @Override
+//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        System.out.println("Extenshion mapping is worked");
+//    }
+//}

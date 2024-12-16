@@ -6,7 +6,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-
+//Extract Mapping
 @WebServlet(urlPatterns = "/test")
 public class TestServelet extends HttpServlet {
     @Override
