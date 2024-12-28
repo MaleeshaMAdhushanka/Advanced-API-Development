@@ -5,9 +5,11 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="HelloServelet" />
+          <element id="module-output" name="Appication" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="HelloServelet/web/Web" />
+      <element id="javaee-facet-resources" facet="Appication/web/Web" />
     </root>
   </artifact>
 </component>

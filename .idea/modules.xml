@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Advanced.iml" filepath="$PROJECT_DIR$/.idea/Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloServelet/Appication/Appication.iml" filepath="$PROJECT_DIR$/HelloServelet/Appication/Appication.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloServelet/HelloServelet.iml" filepath="$PROJECT_DIR$/HelloServelet/HelloServelet.iml" />
     </modules>
   </component>
