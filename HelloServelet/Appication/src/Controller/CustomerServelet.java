@@ -1,3 +1,5 @@
+package Controller;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -30,7 +32,7 @@ public class CustomerServelet extends HttpServlet {
             resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             resp.getWriter().write("{\"error\": \"Invalid Input. ID Or Name Or Address cannot be empty\"}");
         }else {
-        /*CustomerDTO customerDTO = new CustomerDTO(id, name, address);
+        /*Controller.CustomerDTO customerDTO = new Controller.CustomerDTO(id, name, address);
         customerDTOList.add(customerDTO);*/
 
 

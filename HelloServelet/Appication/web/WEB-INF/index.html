@@ -80,7 +80,7 @@
                 const customerTableBody = $('#customerTableBody');
                 customerTableBody.empty();
                 response.forEach(customer => {
-                    customerTableBody.append(`<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td></tr>`);
+                    customerTableBody.append(<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td></tr>);
                 });
             },
             error: function (error) {

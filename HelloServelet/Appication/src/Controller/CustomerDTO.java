@@ -1,3 +1,5 @@
+package Controller;
+
 public class CustomerDTO {
     private String id;
     private String name;
@@ -7,6 +9,9 @@ public class CustomerDTO {
         this.id = id;
         this.name = name;
         this.address = address;
+    }
+
+    public CustomerDTO() {
     }
 
     public String getId() {
@@ -31,5 +36,14 @@ public class CustomerDTO {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Controller.CustomerDTO{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }
